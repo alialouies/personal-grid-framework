@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 10px;
+    margin: 0 auto;
+}
+
+.span-1 {
+    grid-column: span 1;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+.span-3 {
+    grid-column: span 3;
+}
+.span-4 {
+    grid-column: span 4;
+}
+.span-5 {
+    grid-column: span 5;
+}
+.span-6 {
+    grid-column: span 6;
+}
+.span-7 {
+    grid-column: span 7;
+}
+.span-8 {
+    grid-column: span 8;
+}
+.span-9 {
+    grid-column: span 9;
+}
+.span-10 {
+    grid-column: span 10;
+}
+
+.span-11 {
+    grid-column: span 11;
+}
+
+.span-12 {
+    grid-column: span 12;
+}
+
+.text-sm {
+    font-size: 10px;
+}
+
+.text-md {
+    font-size: 16px;
+}
+
+.header-font-sm {
+    font-size: 28px;
+}
+
+.header-font-md {
+    font-size: 34px;
+}
+
+.header-font-big {
+    font-size: 40px
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// Webpage relative styles 
+
+* {
+    color: red;
+}
+
+.xxl-font {
+    font-size: 100px;
+}
+
+.header {
+    margin-top: 15px;
+}
+
+#logo {
+    transform: rotate(20deg);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 2px;
+
+}
+.logo {
+    background-color: red;
+    width: 50px;
+    height: 50px;  
+}
+
+.logo-text {
+    position: absolute;
+    left: 90px;
+    top: 20px;
+}
+
+.logo-up {
+    clip-path: polygon(50% 0%, 0% 100%, 30% 72%);
+    position: relative;
+    left: 10px;
+    top: -4px;
+
+}
+
+.logo-down {
+    clip-path: polygon(50% 0%, 0% 100%, 14% 42%);
+    position: absolute;
+    top: 7px;
+    left: 20px;
+
+}
+.message {
+    font-style: italic;
+    margin-top: 5%;
+    span {
+        font-style: normal;
+    }
+}
+
+.info {
+    margin-top: 10%;
+    p , a {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+.links {
+    .line-up {
+        position: absolute;
+        bottom: 35px;
+    }
+    .line-down {
+        position: absolute;
+        bottom: 10px;
+    }
+    div {
+        padding-right: 10px;
+    }
+}
+
+.line-up, .line-down {
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.covid-19 {
+    background-color: red;
+    color: white;
+    padding: 0 5px;
+}
